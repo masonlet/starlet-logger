@@ -7,8 +7,8 @@ namespace Starlet::Logger {
       switch(level){
         case Level::Debug:   return "DEBUG";
         case Level::Info:    return "INFO";
-        case Level::Warning: return "DEBUG";
-        case Level::Error:   return "INFO";
+        case Level::Warning: return "WARNING";
+        case Level::Error:   return "ERROR";
         default:             return "UNKNOWN";
       }
     }
