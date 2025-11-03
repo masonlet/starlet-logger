@@ -15,7 +15,7 @@ if(NOT TARGET ${LOG_NAME})
 
   target_sources(${LOG_NAME} PRIVATE ${LOG_SRC} ${LOG_HEADERS})
   target_include_directories(${LOG_NAME} PUBLIC 
-    $<BUILD_INTERFACE:${SER_INC_DIR}> 
+    $<BUILD_INTERFACE:${LOG_INC_DIR}> 
     $<INSTALL_INTERFACE:include>
   )
 endif()
