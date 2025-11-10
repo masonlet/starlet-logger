@@ -1,4 +1,4 @@
-#include "StarletLogger/logger.hpp"
+#include "starlet-logger/logger.hpp"
 #include <cstdio>
 
 namespace Starlet::Logger {
